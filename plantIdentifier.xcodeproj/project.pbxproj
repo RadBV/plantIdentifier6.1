@@ -15,6 +15,7 @@
 		1D58BF21232C21DE00878AB8 /* plantIdentifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58BF20232C21DE00878AB8 /* plantIdentifierTests.swift */; };
 		1D58BF2C232C21DE00878AB8 /* plantIdentifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58BF2B232C21DE00878AB8 /* plantIdentifierUITests.swift */; };
 		1D58BF41232C353600878AB8 /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58BF40232C353600878AB8 /* PlantTableViewCell.swift */; };
+		1D58BF43232C409500878AB8 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58BF42232C409500878AB8 /* AppError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1D58BF2B232C21DE00878AB8 /* plantIdentifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantIdentifierUITests.swift; sourceTree = "<group>"; };
 		1D58BF2D232C21DE00878AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D58BF40232C353600878AB8 /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
+		1D58BF42232C409500878AB8 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,6 @@
 		1D58BEFF232C21D500878AB8 = {
 			isa = PBXGroup;
 			children = (
-				1D58BF40232C353600878AB8 /* PlantTableViewCell.swift */,
 				1D58BF0A232C21D700878AB8 /* plantIdentifier */,
 				1D58BF1F232C21DE00878AB8 /* plantIdentifierTests */,
 				1D58BF2A232C21DE00878AB8 /* plantIdentifierUITests */,
@@ -157,6 +158,7 @@
 		1D58BF3C232C2A4C00878AB8 /* Custom Cells */ = {
 			isa = PBXGroup;
 			children = (
+				1D58BF40232C353600878AB8 /* PlantTableViewCell.swift */,
 			);
 			path = "Custom Cells";
 			sourceTree = "<group>";
@@ -164,6 +166,7 @@
 		1D58BF3D232C2AD600878AB8 /* Errors & Network Handling */ = {
 			isa = PBXGroup;
 			children = (
+				1D58BF42232C409500878AB8 /* AppError.swift */,
 			);
 			path = "Errors & Network Handling";
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D58BF43232C409500878AB8 /* AppError.swift in Sources */,
 				1D58BF0E232C21D700878AB8 /* PlantViewController.swift in Sources */,
 				1D58BF41232C353600878AB8 /* PlantTableViewCell.swift in Sources */,
 				1D58BF0C232C21D700878AB8 /* AppDelegate.swift in Sources */,
