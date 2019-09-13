@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1D58BF0C232C21D700878AB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58BF0B232C21D700878AB8 /* AppDelegate.swift */; };
-		1D58BF0E232C21D700878AB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58BF0D232C21D700878AB8 /* ViewController.swift */; };
+		1D58BF0E232C21D700878AB8 /* PlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58BF0D232C21D700878AB8 /* PlantViewController.swift */; };
 		1D58BF11232C21D700878AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D58BF0F232C21D700878AB8 /* Main.storyboard */; };
 		1D58BF13232C21DE00878AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D58BF12232C21DE00878AB8 /* Assets.xcassets */; };
 		1D58BF16232C21DE00878AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D58BF14232C21DE00878AB8 /* LaunchScreen.storyboard */; };
 		1D58BF21232C21DE00878AB8 /* plantIdentifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58BF20232C21DE00878AB8 /* plantIdentifierTests.swift */; };
 		1D58BF2C232C21DE00878AB8 /* plantIdentifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58BF2B232C21DE00878AB8 /* plantIdentifierUITests.swift */; };
+		1D58BF41232C353600878AB8 /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58BF40232C353600878AB8 /* PlantTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		1D58BF08232C21D700878AB8 /* plantIdentifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plantIdentifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D58BF0B232C21D700878AB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D58BF0D232C21D700878AB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D58BF0D232C21D700878AB8 /* PlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewController.swift; sourceTree = "<group>"; };
 		1D58BF10232C21D700878AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D58BF12232C21DE00878AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D58BF15232C21DE00878AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		1D58BF27232C21DE00878AB8 /* plantIdentifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plantIdentifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D58BF2B232C21DE00878AB8 /* plantIdentifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantIdentifierUITests.swift; sourceTree = "<group>"; };
 		1D58BF2D232C21DE00878AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D58BF40232C353600878AB8 /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		1D58BEFF232C21D500878AB8 = {
 			isa = PBXGroup;
 			children = (
+				1D58BF40232C353600878AB8 /* PlantTableViewCell.swift */,
 				1D58BF0A232C21D700878AB8 /* plantIdentifier */,
 				1D58BF1F232C21DE00878AB8 /* plantIdentifierTests */,
 				1D58BF2A232C21DE00878AB8 /* plantIdentifierUITests */,
@@ -146,7 +149,7 @@
 		1D58BF3B232C2A0100878AB8 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1D58BF0D232C21D700878AB8 /* ViewController.swift */,
+				1D58BF0D232C21D700878AB8 /* PlantViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -296,7 +299,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D58BF0E232C21D700878AB8 /* ViewController.swift in Sources */,
+				1D58BF0E232C21D700878AB8 /* PlantViewController.swift in Sources */,
+				1D58BF41232C353600878AB8 /* PlantTableViewCell.swift in Sources */,
 				1D58BF0C232C21D700878AB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
